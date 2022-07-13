@@ -4,7 +4,7 @@ binlog:
     open: true
     classPath: classpath*:com/example/listener/*.class
     data-source-configs:
-      - url: jdbc:mysql://150.158.168.29:3306/zm-demo?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
+      - url: jdbc:mysql://150.158.168.29:3306/demo?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
         password: Alice
         userName: root
         serverId: 1
