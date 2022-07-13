@@ -14,11 +14,6 @@ public class DbRowListener {
         System.out.println(JSON.toJSONString(customEvent));
     }
 
-    @RowListener(tableNames = {"t_edu_lesson"},dsName = "zmbiz_class")
-    public void execute2(String event){
-        CustomEvent customEvent = JSON.parseObject(event, CustomEvent.class);
-        System.out.println(JSON.toJSONString(customEvent));
-    }
 
 
 }
